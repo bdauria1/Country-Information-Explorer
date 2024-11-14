@@ -1,0 +1,93 @@
+body {
+  background-color: hsl(207, 26%, 17%);
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+  padding: 20px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 2px solid hsl(207, 26%, 17%);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar {
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 15%;
+  right: 50.5%;
+}
+
+.searchbar input {
+  width: 100%;
+  max-width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+  outline: none;
+}
+
+.searchbar input::placeholder {
+  color: #ccc;
+}
+
+.filter {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+}
+
+.filter select {
+  width: 100%;
+  max-width: 15%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: hsl(209, 23%, 22%);
+  color: #ccc;
+  outline: none;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 20px;
+  margin: 160px auto 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flag {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
